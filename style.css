@@ -1,0 +1,29 @@
+.tooltip {
+	position: relative;
+}
+
+.icon {
+	position: absolute;
+	top: -1380px; left:375px;
+}
+
+.icon:hover + div.tooltip-content {
+	display: block;
+	visibility: visible;
+}
+
+
+.tooltip-content{
+	position: fixed;
+	top: 80px;
+	background-color: black;
+	padding: 10px;
+	display: none;
+	width: 25%;
+	color: white;
+}
+
+.icon:hover + div.tooltip-content {
+	display: block;
+	visibility: visible;
+}
